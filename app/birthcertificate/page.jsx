@@ -265,7 +265,6 @@ const BirthCertificateForm = () => {
             name="remark"
             value={formData.remark}
             onChange={handleChange}
-            required
             className="w-full p-2 border rounded-md bg-gray-50 border-black"
           />
         </div>
