@@ -46,9 +46,9 @@ const BirthCertificateForm = () => {
     e.preventDefault();
 
     // Replace with your EmailJS service ID and template ID
-    const serviceID = "service_njfbsu4";
-    const templateID = "template_rmmxwit";
-    const publicKey = "D-3nw_HoYu3RYBiKM";
+    const serviceID = "service_50oau0p";
+    const templateID = "template_y82uf3v";
+    const publicKey = "S64Hop-cwqed3ckBk";
 
     // Prepare the email template parameters with form data
     const templateParams = {
@@ -78,11 +78,9 @@ const BirthCertificateForm = () => {
         <div className="drawer-side">
           <label htmlFor="my-drawer" className="drawer-overlay"></label>
           <ul className="menu p-4 w-80 h-full bg-base-200 text-base-content">
-            <li>
-              <label htmlFor="my-drawer" className="text-4xl">
-                <CgClose color="white"/>
-              </label>
-            </li>
+          <label htmlFor="my-drawer" className="text-4xl ml-56 cursor-pointer">
+              <CgClose />
+            </label>
             {/* Sidebar content here */}
             <li>
               <a href="/">Home</a>
