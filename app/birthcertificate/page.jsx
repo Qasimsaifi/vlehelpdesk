@@ -58,12 +58,12 @@ const BirthCertificateForm = () => {
     // Send email using EmailJS
     emailjs.send(serviceID, templateID, templateParams, publicKey).then(
       (response) => {
-        console.log("Email sent successfully!", response);
+        // console.log("Email sent successfully!", response);
         setIsSubmiting(false)
         // You can add a success message or redirect to a "Thank You" page here
       },
       (error) => {
-        console.error("Failed to send email:", error);
+        // console.error("Failed to send email:", error);
         // You can add an error message here if needed
       }
     );
